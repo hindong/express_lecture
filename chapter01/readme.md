@@ -66,8 +66,8 @@ server.listen(port, () => console.log(`server started on port ${port}\n` + 'pres
     console.log(path);
 ```
 
-http://localhost:8080/about를 전달하면 콘솔에 /about이 찍혀나오고
-http://localhost:8080를 전달해보면 빈 문자열이 전달됩니다.
+http://localhost:8080/about 를 전달하면 콘솔에 /about이 찍혀나오고
+http://localhost:8080 를 전달해보면 빈 문자열이 전달됩니다.
 또한 http://localhost:8080/?foo=bar 를 전달해보면 쿼리스트링은 제거하기 때문에 빈문자열이 찍여서 나오게 되어서
 쿼리스트링을 전달할 경우 http://localhost:8080 와 동일한 결과로 MainPage가 나오게됩니다.
 그 외에 나머지 결과들은 default 로 가서 'Not Found'를 홈페이지에 출력합니다.
