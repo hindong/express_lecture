@@ -15,6 +15,6 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => console.log(`server started on port : ${port}` + `press Ctrl-C to terminate..`));
 ```
 
-### [Chapter01 - express 기초](https://github.com/hindong/express_lecture/tree/main/chapter01)
-### [Chapter02]()
+### [Chapter01 - Node 웹서버 기초](https://github.com/hindong/express_lecture/tree/main/chapter01)
+### [Chapter02 - express 기초]()
 ### [Chapter03]()
